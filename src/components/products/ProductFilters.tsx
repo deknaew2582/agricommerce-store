@@ -49,8 +49,8 @@ export const ProductFilters: React.FC<ProductFiltersProps> = ({
   const handlePriceChange = () => {
     onFilterChange({
       ...filters,
-      minPrice: priceRange.min ? parseFloat(priceRange.min) : undefined,
-      maxPrice: priceRange.max ? parseFloat(priceRange.max) : undefined
+      minPrice: priceRange.min ? parseFloat(String(priceRange.min)) : undefined,
+      maxPrice: priceRange.max ? parseFloat(String(priceRange.max)) : undefined
     })
   }
 
