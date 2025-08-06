@@ -28,15 +28,15 @@ export const Header: React.FC<HeaderProps> = ({ cartItemCount = 0, user }) => {
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center text-xs sm:text-sm">
             <div className="flex items-center space-x-2 sm:space-x-4">
-              <span className="hidden sm:inline">📞 1-800-FARM-HELP</span>
-              <span className="sm:hidden">📞 Call Us</span>
-              <span className="hidden md:inline">📧 support@agricultural-store.com</span>
+              <span className="hidden sm:inline">Nathakrit web demo</span>
+              <span className="sm:hidden">Nathakrit web demo</span>
+              {/* <span className="hidden md:inline">📧 support@agricultural-store.com</span> */}
             </div>
             <div className="flex items-center space-x-2 sm:space-x-4">
-              <span className="hidden sm:inline">🚚 Free Shipping on Orders ฿2500+</span>
-              <span className="sm:hidden">🚚 Free Ship ฿2500+</span>
+              {/* <span className="hidden sm:inline">🚚 Free Shipping on Orders ฿2500+</span> */}
+              {/* <span className="sm:hidden">🚚 Free Ship ฿2500+</span> */}
               {user ? (
-                <span className="hidden sm:inline">Welcome, {user.firstName}!</span>
+                <span className="hidden sm:inline">Welcome, User!</span>
               ) : (
                 <Link href="/login" className="hover:text-harvest-gold-400">
                   Sign In

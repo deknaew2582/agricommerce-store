@@ -6,7 +6,7 @@ import { Layout } from '@/components/layout/Layout'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Agricultural Store - Premium Farm Supplies',
+  title: 'Nathakrit-agri-store - Premium Farm Supplies',
   description: 'Your trusted partner for quality agricultural products, seeds, tools, and farming supplies.',
 }
 
