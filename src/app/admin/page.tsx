@@ -53,7 +53,7 @@ export default function AdminDashboard() {
             🌾 Admin Dashboard
           </h1>
           <p className="text-dirt-brown-600 mt-2">
-            Welcome back, {user.firstName}! Here's your store overview.
+            Welcome back, {user.firstName}! Here&apos;s your store overview.
           </p>
         </div>
 

@@ -32,7 +32,7 @@ export const ProductGrid: React.FC<ProductGridProps> = ({
           No products found
         </h3>
         <p className="text-dirt-brown-600">
-          Try adjusting your filters or search terms to find what you're looking for.
+          Try adjusting your filters or search terms to find what you&apos;re looking for.
         </p>
       </div>
     )

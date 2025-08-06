@@ -51,7 +51,7 @@ export default function SalesDashboard() {
             📊 Sales Dashboard
           </h1>
           <p className="text-dirt-brown-600 mt-2">
-            Track your store's performance and sales analytics
+            Track your store&apos;s performance and sales analytics
           </p>
         </div>
 

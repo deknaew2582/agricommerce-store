@@ -16,12 +16,12 @@ export default function CheckoutSuccessPage() {
           
           <p className="text-dirt-brown-600 mb-6">
             Thank you for your order! Your agricultural supplies will be shipped soon.
-            You'll receive a confirmation email with tracking information.
+            You&apos;ll receive a confirmation email with tracking information.
           </p>
           
           <div className="bg-agricultural-green-50 border border-agricultural-green-200 rounded-lg p-4 mb-6">
             <h3 className="font-semibold text-agricultural-green-700 mb-2">
-              What's Next?
+              What&apos;s Next?
             </h3>
             <ul className="text-sm text-agricultural-green-600 space-y-1">
               <li>• Order confirmation email sent</li>

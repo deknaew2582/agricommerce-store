@@ -69,7 +69,7 @@ export default function Home() {
               Why Choose Agricultural Store?
             </h2>
             <p className="text-dirt-brown-600 text-lg max-w-2xl mx-auto">
-              We've been serving farmers and gardeners for decades with quality products and expert advice
+              We&apos;ve been serving farmers and gardeners for decades with quality products and expert advice
             </p>
           </div>
           

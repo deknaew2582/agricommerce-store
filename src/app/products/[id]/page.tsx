@@ -75,7 +75,7 @@ export default function ProductDetailPage() {
             Product Not Found
           </h1>
           <p className="text-dirt-brown-600 mb-4">
-            The product you're looking for doesn't exist or has been removed.
+            The product you&apos;re looking for doesn&apos;t exist or has been removed.
           </p>
           <Button onClick={() => window.history.back()}>
             Go Back
