@@ -8,13 +8,13 @@ export * from './dataService'
 export const getDataSummary = () => {
   const { products } = require('./products')
   const { categories, productGroups, promoBanners } = require('./mockData')
-  
+
   return {
     totalProducts: products.length,
     totalCategories: categories.length,
     totalProductGroups: productGroups.length,
     totalPromoBanners: promoBanners.length,
-    productsByCategory: categories.map(cat => ({
+    productsByCategory: categories.map((cat: any) => ({
       category: cat.name,
       count: products.filter((p: any) => p.categoryId === cat.id).length
     })),
