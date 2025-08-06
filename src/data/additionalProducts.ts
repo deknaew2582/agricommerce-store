@@ -373,7 +373,7 @@ export const additionalProducts: Product[] = [
 
 // Generate additional products programmatically to reach 50+ total
 const generateAdditionalProducts = (): Product[] => {
-  const additionalSeeds = []
+  const additionalSeeds: Product[] = []
   const seedNames = [
     'Basil Seeds - Sweet Genovese', 'Oregano Seeds - Greek', 'Thyme Seeds - English',
     'Rosemary Seeds - Common', 'Sage Seeds - Garden', 'Parsley Seeds - Flat Leaf',
